@@ -1,0 +1,78 @@
+body {
+	background: #f2f2f2;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+input[type="file"] {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+input[type=text] {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 100%;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 5px 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+fieldset {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.clear {
+	clear: both;
+}
+
+legend {
+	background: #888888;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 5px #ddd;
+	margin-left: 20px;
+}
+
+radio {
+	color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.error {
+	color: red;
+}
